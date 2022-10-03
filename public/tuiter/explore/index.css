@@ -1,13 +1,22 @@
 body {
     font-family: Arial;
-    /* background-color: black; */
+    background-color: black;
     color: white;
+}
+
+.wd-nav {
+    padding: 10px 10px 0px;
+}
+
+.wd-nav h1 {
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 .wd-search {
     border-radius: 20px;
     border-style: none;
-    width: 60%;
+    width: 70%;
     height: 10%;
     padding: 6px 5%;
 }
@@ -15,7 +24,8 @@ body {
 .wd-gear {
     color: rgb(29,161,242);
     padding: 1em;
-    font-size: 150%;
+    font-size: x-large;
+    text-align: right;
 }
 
 .wd-nav-tabs {
@@ -42,9 +52,25 @@ body {
 }
 
 .wd-topic {
-    border: solid;
-    border-color: blueviolet;
     overflow: hidden;
+    display: flex;
+}
+
+.wd-border-style {
+    border-color: rgb(110, 118, 125);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.wd-topic-border {
+    border-top: none;
+}
+
+.wd-nav-border {
+    border-width: 0px 0px 1px;
+}
+.wd-post-meta {
+    flex: 1;
 }
 
 .wd-topic h3 {
@@ -65,29 +91,24 @@ body {
 
 .wd-right-float {
     float: right;
-    /* clear: none;  */
-}
-
-.wd-topic img {
-    max-width:10%;
-    max-height:20%;
-}
-
-.content {
-    display: flex;
-  }
-  .text {
-    background: #333333;
-    color: white;
-    flex: 1;
+    padding-right: 10px;
     margin: 10px;
-  }
-  .image {
+
+}
+
+.wd-post-and-img {
+    margin-right: 150px;
+}
+
+.wd-image-right {
     flex: 2;
     margin: 10px;
   }
-  img {
-    width: 100%;
+
+.wd-topic img {
     vertical-align: top;
-    border: solid coral;
+    border-radius: 10%;
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
   }
