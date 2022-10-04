@@ -91,8 +91,16 @@
   padding: 0px;
 }
 
-.wd-action ul li a {
+.wd-action a {
   text-decoration: none;
   color: rgb(110, 118, 125);
   cursor: auto;
+}
+
+.wd-like > a {
+  color: red;
+}
+
+.wd-action span {
+  padding: 12px;
 }
