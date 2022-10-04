@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  background-color: black;
+  color: white;
+  margin-left: 16px;
+}
+
+.wd-border-style {
+  border-color: rgb(47, 51, 54);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.wd-right-float {
+  float: right;
+  padding-right: 10px;
+  margin: 10px;
+}
+
+.wd-grey {
+  color: rgb(110, 118, 125);
+}
+
+.wd-font-thin {
+  font-weight: lighter;
+}
