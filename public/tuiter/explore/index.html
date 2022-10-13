@@ -15,7 +15,8 @@
 <body>
     <div class="container pt-1">
         <div class="row">
-            <div class="col-2">
+            <!-- navigation -->
+            <div class="col-1 col-xl-2">
                 <!-- navigation -->
                 <div class="list-group">
                     <a href="index.html" class="list-group-item list-group-item-action ">
@@ -23,34 +24,55 @@
                     </a>
                     <a href="../navigation.html" class="list-group-item list-group-item-action ">
                         <i class="fa-solid fa-house"></i>
-                        Home
+                        <span class="d-none d-xl-inline-block float-left ">Home</span>
                     </a>
                     <a href="../explore/index.html" class="list-group-item list-group-item-action active">
                         <i class="fa-solid fa-hashtag"></i>
-                        Explore</a>
+                        <span class="d-none d-xl-inline-block">
+                            Explore
+                        </span>
+                    </a>
                     <a href="../notification.html" class="list-group-item list-group-item-action">
                         <i class="fa-solid fa-bell"></i>
-                        Notifications</a>
+                        <span class="d-none d-xl-inline-block float-left ">Notifications</span>
+
+                    </a>
                     <a href="#" class="list-group-item list-group-item-action">
                         <i class="fa-solid fa-envelope"></i>
-                        Messages</a>
+                        <span class="d-none d-xl-inline-block">
+                            Messages
+                        </span>
+                    </a>
                     <a href="../bookmarks/index.html" class="list-group-item list-group-item-action ">
                         <i class="fa-solid fa-bookmark"></i>
-                        Bookmarks</a>
+                        <span class="d-none d-xl-inline-block">
+                            Bookmarks
+                        </span>
+                    </a>
                     <a href="#" class="list-group-item list-group-item-action">
                         <i class="fa-solid fa-list"></i>
-                        Lists</a>
+                        <span class="d-none d-xl-inline-block">
+                            Lists
+                        </span>
+                    </a>
                     <a href="../profile.html" class="list-group-item list-group-item-action">
                         <i class="fa-solid fa-user"></i>
-                        Profile</a>
+                        <span class="d-none d-xl-inline-block">
+                            Profile
+                        </span>
+                    </a>
                     <a href="#" class="list-group-item list-group-item-action">
                         <i class="fa-solid fa-plus"></i>
-                        More</a>
+                        <span class="d-none d-xl-inline-block">
+                            More
+                        </span>
+                    </a>
                 </div>
                 <button class="btn btn-primary w-100 mt-2 rounded-pill">Tuit</button>
 
             </div>
-            <div class="col-6">
+            <!-- main content -->
+            <div class="col">
                 <div class="position-relative">
                     <div class="row">
                         <div class="col-10">
@@ -167,9 +189,8 @@
                     </li>
                 </ul>
             </div>
-
             <!-- Follow bar -->
-            <div class="col">
+            <div class="col-2 col-lg-4 col-xl-4">
                 <ul class="list-group">
                     <li class="list-group-item fw-bolder">Who to follow</li>
 
@@ -178,7 +199,7 @@
                             <div class="col-2 ">
                                 <img src="../../img/java.png" style="height: 45px">
                             </div>
-                            <div class="col-4 ps-4">
+                            <div class="col-4 ps-2">
 
                                 <div class="fw-bolder">
                                     Java
@@ -193,20 +214,13 @@
                             </div>
                         </div>
                     </li>
-                    <!-- <li class="list-group-item">
-                        <div class="row">
-                            <div class="col-2 bg-primary">left</div>
-                            <div class="col bg-warning">Middle</div>
-                            <div class="col-4 bg-danger">Right</div>
 
-                        </div>
-                    </li> -->
                     <li class="list-group-item">
                         <div class="row">
                             <div class="col-2 ">
                                 <img src="../../img/relativity-space.png" style="height: 45px">
                             </div>
-                            <div class="col-6 ps-4">
+                            <div class="col d-inline-block p-xl-2 p-lg-1 bg-warning">
 
                                 <div class="fw-bolder">
                                     Relativity Space
@@ -216,7 +230,7 @@
                                     @relativityspace
                                 </div>
                             </div>
-                            <div class="col ">
+                            <div class="col-3">
                                 <button class="float-end mt-2 rounded-pill btn btn-primary">Follow</button>
                             </div>
                         </div>
@@ -226,7 +240,7 @@
                             <div class="col-2 ">
                                 <img src="../../img/virgin.svg" style="height: 45px">
                             </div>
-                            <div class="col-6 ps-4">
+                            <div class="col-7 ps-4">
 
                                 <div class="fw-bolder">
                                     Virgin Galactic
@@ -236,7 +250,7 @@
                                     @virgingalactic
                                 </div>
                             </div>
-                            <div class="col ">
+                            <div class="col">
                                 <button class="float-end mt-2 rounded-pill btn btn-primary">Follow</button>
                             </div>
                         </div>
@@ -284,9 +298,6 @@
                 </ul>
             </div>
         </div>
-
-
-
 
     </div>
 
