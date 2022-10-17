@@ -1,0 +1,46 @@
+.wd-bg-black {
+  background: black;
+}
+
+.wd-selected {
+  font-weight: bold;
+}
+
+.wd-active {
+  color: white;
+  border-bottom: #61dafb;
+}
+
+.wd-search-tuiter {
+  bottom: 10px;
+  left: 25px;
+}
+
+.wd-explore-gear {
+  font-size: 1.5em;
+  padding-top: 8px;
+}
+
+.wd-left-1 {
+  left: 15px;
+}
+
+.wd-nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.wd-nav-item {
+  padding: 12px;
+  white-space: nowrap;
+}
+
+.wd-nav-item:hover {
+  background: rgb(33, 36, 41);
+  border: none;
+}
+
+.wd-nav-item.wd-active {
+  border-bottom: 5px solid rgb(13, 202, 240);
+}
