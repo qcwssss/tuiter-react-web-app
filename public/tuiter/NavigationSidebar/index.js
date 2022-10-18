@@ -1,20 +1,20 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
     return(`
       <div class="list-group">
       <a href="index.html" class="list-group-item list-group-item-action ">
           <i class="fa-brands fa-twitter"></i>
       </a>
-      <a href="../navigation.html" class="list-group-item list-group-item-action ">
+      <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action ">
           <i class="fa-solid fa-house"></i>
           <span class="d-none d-xl-inline-block float-left ">Home</span>
       </a>
-      <a href="../explore/index.html" class="list-group-item list-group-item-action active">
+      <a href="../explore/index.html" class="list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}">
           <i class="fa-solid fa-hashtag"></i>
           <span class="d-none d-xl-inline-block">
               Explore
           </span>
       </a>
-      <a href="../notification.html" class="list-group-item list-group-item-action">
+      <a href="#" class="list-group-item list-group-item-action">
           <i class="fa-solid fa-bell"></i>
           <span class="d-none d-xl-inline-block float-left ">Notifications</span>
 
@@ -57,6 +57,15 @@ const NavigationSidebar = () => {
       </div>
     `);
    }
+
+
+$("a").click(function() {
+    let cur = $(this);
+    console.log(cur)
+    if(cur.hasClass('.active')) {
+        cur.addClass('active')
+    } 
+});
 
 $('#wd-navbar').append(NavigationSidebar)
 
