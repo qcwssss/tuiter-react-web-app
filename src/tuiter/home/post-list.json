@@ -1,0 +1,37 @@
+[
+    {
+        "_id":"001",
+        "retuitedBy":"Elon Musk",
+        "icon": "spacex.jfif",
+        "author":"SpaceX",
+        "handle":"SpaceX",
+        "time":"23h",
+        "tuit":"Dennis Tito, the world's first space tourist, plans to take his wife Akiko on a belated honeymoon to the moon",
+        "image":"dennis.jpg",
+        "chat": "595",
+        "retuit": "1168",
+        "likes": "11.1K",
+        "reference": "spacex.com/updates",
+        "thread": true
+    },
+    {
+        "_id":"002",
+        "icon": "elon-tweet.jpg",
+        "author":"Elon Musk",
+        "handle":"elonmusk",
+        "time":"15h",
+        "tuit":"We might need a different name, as this is basically just Starlink with roaming capability, so you can take your terminal anywhere.",
+        "secondary":"netfilx.com",
+        "chat": "534,6",
+        "retuit": "160,1",
+        "likes": "19.2K",
+        "isTuitInside": true,
+        "content":{
+            "author":"Elon Musk",
+            "handle":"SpaceX",
+            "icon": "spacex.jfif",
+            "time":"16h",
+            "tuit":"From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space."
+        }
+    }
+]

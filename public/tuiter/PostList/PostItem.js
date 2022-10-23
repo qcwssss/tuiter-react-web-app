@@ -1,6 +1,3 @@
-import postList from "./posts.js";
-
-
 const renderContent = (item) => {
     return item.hasContent ? `            <div class="card-body">
     <h5 class="card-title">${item.title}</h5>
@@ -50,7 +47,6 @@ const PostItem = (item) => {
                             <img src="../../img/${item.image}" class="card-img-top">
                             ${renderContent(item)}
                         </div>
-                        <!-- SECTION G -->
                         <ul class="list-group list-group-horizontal"
                             style="justify-content: space-between; list-style-type: none;">
                             <li>
@@ -60,7 +56,7 @@ const PostItem = (item) => {
                                 <i class="fa-solid fa-retweet p-2"></i> ${item.retuit}
                             </li>
                             <li class="wd-like">
-                                <i class="fa-regular fa-heart p-2"></i> <span> ${item.likes}</span></a>
+                                <i class="fa-regular fa-heart p-2"></i> <span> ${item.likes}</span>
                             </li>
                             <li>
                                 <i class="fa-solid fa-share-from-square p-2"></i>
