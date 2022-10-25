@@ -46,11 +46,11 @@ const insideTuit = (post) => {
     return(
         <div className="border rounded p-2">
             <div className="row">
-                <div className="col-1 ps-2 bg-warning">
+                <div className="col-1 ps-2">
                     <img width={30} className=" rounded-circle" 
                     src={`/img/${post.icon}`} alt={`${post.handle}`}/>
                 </div>
-                <div className="col-11 ps-1 bg-primary">
+                <div className="col-11 ps-1">
                     {showTitle(post)}
                 </div>
             </div>
